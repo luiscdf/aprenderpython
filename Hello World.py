@@ -1,2 +1,2 @@
-// fist assingnment in python class 
+#fist assingnment in python class 
 print "hello Luis" 
