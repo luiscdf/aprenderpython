@@ -1,8 +1,8 @@
+#simple Body mass index calculator
 
 name = raw_input("What is your name?")
-gender = raw_input("what is your gender? please use(m)(f)")
-age = raw_input("Wow old are you "print name "?")
-
-
-print "your name is " + name "and you are" + age "years Old"
-
+#gostava de por aqui o nome!!
+height = raw_input("Your Height (in Metric) is?")
+weight = raw_input("Your weight (in Kg) is?")
+bmi = (float(weight) / (float(height)**2))
+print name + "your body mass index is: " + str(bmi)
