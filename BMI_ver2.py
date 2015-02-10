@@ -1,10 +1,11 @@
+
 print "Hello there! I am a Simple Python program that will help you to calculate your Body mass index. in order to do that i need to ask you some questions..."
 print " "
 
 #data colect
-name = raw_input("What is your name? ")
-height = raw_input("Your Height (in Metric) is? ")
-weight = raw_input("Your weight (in Kg) is? ")
+name = raw_input("What is your name?")
+height = raw_input("Your Height (in Metric) is?")
+weight = raw_input("Your weight (in Kg) is?")
 
 #math bmi
 bmi = (float(weight) / (float(height)**2))
@@ -31,7 +32,5 @@ elif bmi >= 40.0 and bmi < 100.0:
 print " "
 print name + ", your body mass index is:" , bmi
 print " "
-print "According to (http://en.wikipedia.org/wiki/Body_mass_index) Your are: " + diag
+print "According to (http://en.wikipedia.org/wiki/Body_mass_index)Your are: " + diag
 print " "
-closeInput = raw_input("Press ENTER to exit")
-print "Closing..."
